@@ -1,0 +1,35 @@
+.enter{
+    background-color: #F5F5F5;
+  }
+  .enter_title,
+  .enter_txt,
+  .enter_btn{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .enter_txt{
+    font-size: 12px;
+  }
+  .enter_title{
+    font-size: 20px;
+  }
+  .enter_btn{
+    border: 1px solid #D3D3D3;
+    padding: 10px 70px;
+    width: auto;
+    background-color: #fff;
+    margin: 0 auto;
+    text-align: left;
+  }
+ 
+ .form_input::placeholder{
+    color: #a9a9a9;
+    
+ }
+ .enter_ic{
+    background: url(..//..//images/icons/enter_ic.svg);
+   display: block;
+   width: 10px;
+   height: 10px;
+    
+ }
