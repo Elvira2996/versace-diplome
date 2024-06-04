@@ -1,0 +1,45 @@
+.Header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    padding: 20px;
+    background-color: transparent; /* Initially transparent background */
+    color: white; /* Initially white text */
+    transition: background-color 0.3s, color 0.3s; /* Add transition for smooth color change */
+}
+
+.Header.fixed {
+    background-color: black; /* Change background color to black when fixed */
+    color: white; /* Change text color to white when fixed */
+}
+
+.Head {
+    align-items: flex-end;
+    position: relative;
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Aktiv Grotesk Corp', arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.header_menu li {
+    font-size: 15px;
+    font-weight: 700;
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+
+.header_menu li:last-child {
+    margin-right: 0;
+}
+.Cart_ic{
+    background: url(..//..//images/icons/cart.svg);
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+}

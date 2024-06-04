@@ -1,0 +1,89 @@
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 50px 0;
+}
+
+.footer_wrapp {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-column {
+  flex: 1;
+}
+
+.footer-heading {
+  font-size: 18px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.footer-list {
+  list-style-type: none;
+  margin: 20px;
+  padding: 0;
+
+}
+
+.footer-list li {
+  margin-bottom: 10px;
+}
+
+.footer-list a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-list a:hover {
+  text-decoration: underline;
+}
+
+
+
+.ins_icons{
+  background: url(..//..//images/icons/instagram.svg);
+  width: 24px;
+  height: 24px;
+  display: block;
+}
+.ins_icons{
+  width: 30px;
+  height: 28px;
+  display: block;
+}
+
+ 
+.ld_icons{
+  background: url('..//..//images/icons/linkedin.svg');
+  width: 30px;
+  height: 30px;
+  display: block;
+}
+
+
+.fc_icons{
+  background: url(../../images/icons/facebook.svg);
+  width: 24px;
+  height: 24px;
+  display: block;
+}
+
+
+.tw_icons{
+  background: url(../../images/icons/twitter-2.svg) ;
+ 
+}
+.pintr_icons{
+  background: url(../../images/icons/pinterest.svg);
+  width: 26px;
+  height: 28px;
+  display: block;
+  
+}
+.youtube_icons{
+  background: url(../../images/icons/youtube.svg);
+}
+.footer_icons{
+  align-items: flex-end;
+}
