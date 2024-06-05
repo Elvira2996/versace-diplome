@@ -1,0 +1,39 @@
+.story_title{
+    text-align: center;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+  }
+  
+  .story_menu{
+    align-items: center;
+  }
+  
+  
+  .vertical{
+    border-left: 1px solid #a9a9a9;
+    height: 30px;
+  }
+  .story_name{
+  font-style: 10px;
+  }
+  .story_name:hover{
+    font-weight: 600;
+  }
+  .block_left{
+    width: 740px;
+  }
+  
+  .card_info{
+    
+    font-size: 14px;
+    
+  }
+  .card{
+    width: calc(20% - 20px);
+    margin: 10px;
+  }
+  .card_wrapp{
+    margin-top: 30px;
+  }
+  
+ 

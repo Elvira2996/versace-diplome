@@ -3,6 +3,7 @@ import './Header.css';
 import Menu from '../Menu/Menu';
 import Button from '../Button/Button';
 import { Link } from 'react-router-dom';
+import Auth from "../Auth/Auth";
 import CategoryList from '../CategoryList/CategoryList';
 
 
@@ -53,8 +54,7 @@ function Header() {
             </div>
             <Menu />
             <div className="Buttons flex">
-              <Button>Login</Button>
-              <Button>Sign In</Button>
+             <Auth />
             </div>
             <Link to="/cart" className="Cart_ic">
               <span></span>

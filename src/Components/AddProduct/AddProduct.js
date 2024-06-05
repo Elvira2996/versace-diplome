@@ -8,7 +8,7 @@ export default function AddProduct({ category }) {
   const { user } = useContext(AppContext);
   const [name, setName] = useState("");
   const [price, setPrice] = useState(0);
-  const [picture, setPicture] = useState(null);
+  const [image, setPicture] = useState(null);
   const [description, setDescription] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
 
@@ -33,19 +33,19 @@ export default function AddProduct({ category }) {
   function onFormSubmit(event) {
     event.preventDefault();
 
-    if (!picture) {
-      alert("Please upload an picture");
+    if (!image) {
+      alert("Please upload an image");
       return;
     }
 
     setIsSubmitting(true);
-    uploadProductPhoto(picture)
+    uploadProductPhoto(image)
       .then((pictureUrl) =>
         addDoc(productsCollection, {
           category: category.id,
           name: name,
           price: Number(price),
-          picture: pictureUrl,
+          image: pictureUrl,
           description: description,
           slug: name.replaceAll(" ", "-").toLowerCase(),
         })
@@ -91,24 +91,15 @@ export default function AddProduct({ category }) {
           />
         </label>
         <label>
-          Picture:
+          Image:
           <input
             type="file"
-            name="picture"
+            name="image"
             onChange={onChangePicture}
             required
           />
         </label>
-        <label>
-          Description:
-          <textarea
-            type=""
-            name="description"
-            value={description}
-            onChange={onChangeDescription}
-            required
-          />
-        </label>
+       
         <button type="submit" disabled={isSubmitting}>{isSubmitting ? "Submitting..." : "Submit"}</button>
       </form>
     </div>
