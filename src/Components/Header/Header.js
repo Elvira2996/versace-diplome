@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Header.css';
 import Menu from '../Menu/Menu';
-import Button from '../Button/Button';
+
 import { Link } from 'react-router-dom';
 import Auth from "../Auth/Auth";
 import CategoryList from '../CategoryList/CategoryList';
@@ -33,7 +33,7 @@ function Header() {
       <header className={`Header ${isScrolled ? 'fixed' : ''}`}>
         <div className="container">
           <div className="Head flex">
-            <h1 className="logo"> <Link to="#">Versace</Link></h1>
+            <h1 className="logo"> <Link to="/">Versace</Link></h1>
             <nav>
               <CategoryList />
               

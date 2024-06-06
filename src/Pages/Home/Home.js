@@ -70,21 +70,20 @@ function Home() {
 			<section className="presentation">
 				<div className="presentation_image">
 					<img src={Present1} alt="#" />
-					<div className="image_content">
+					<div className="image_content left">
 						<h2 className="presentation_title">New In for her</h2>
 						<Link to="#" className="presentation_btn">Shop now</Link>
 					</div>
 				</div>
 				<div className="presentation_image">
 					<img src={Present2} alt="#" />
-					<div className="image_content">
+					<div className="image_content right">
 						<h2 className="presentation_title">Woman's bag</h2>
 						<Link to="#" className="presentation_btn">Shop now</Link>
 					</div>
 				</div>
 			</section>
 
-			<ShopSlide />
 			<section class="main_bag">
 				<img src={MainBag} alt="Bag" />
 				<button class="main_btn">Shop the look</button>

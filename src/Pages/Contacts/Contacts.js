@@ -1,7 +1,8 @@
-
 import './Contacts.css';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 
+import CustomAccordion from '..//..//Components/CustomAccordion/CustomAccordion';
+import FooterMail from '../../Components/FooterMail/FooterMail';
 
 function Contacts() {
   return (
@@ -29,7 +30,8 @@ function Contacts() {
           </div>
         </div>
       </section>
-    
+      <CustomAccordion />
+      <FooterMail />
     </>
   );
 }

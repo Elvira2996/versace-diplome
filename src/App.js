@@ -13,6 +13,7 @@ import { Cart } from "./Pages/Cart/Cart";
 import ThankYou from "./Pages/ThankYou/ThankYou";
 import Orders from "./Pages/Orders/Orders";
 
+
 export const AppContext = createContext({
   categories: [],
   products: [],
