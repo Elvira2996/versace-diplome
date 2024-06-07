@@ -10,7 +10,7 @@ export function Cart() {
   if (Object.keys(cart).length === 0) {
     return (
     <div className="Cart" >
-      <h1>Cart</h1>
+      <h1></h1>
       <CartList />
       <OrderForm active={modalActive} setActive={setModalActive} />
     </div>
@@ -26,7 +26,7 @@ export function Cart() {
 
   return (
     <div className="Cart" >
-      <h1>Cart</h1>
+      <h1></h1>
       <CartList />
       <button className="order" onClick={() => setModalActive(true)}>Order</button>
       <OrderForm active={modalActive} setActive={setModalActive} />

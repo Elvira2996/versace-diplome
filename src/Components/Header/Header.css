@@ -37,9 +37,3 @@
 .header_menu li:last-child {
     margin-right: 0;
 }
-.Cart_ic{
-    background: url(..//..//images/icons/cart.svg);
-    width: 24px;
-    height: 24px;
-    display: inline-block;
-}

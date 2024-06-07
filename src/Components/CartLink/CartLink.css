@@ -1,0 +1,10 @@
+.Cart_ic{
+    background: url(..//..//images/icons/cart_icon123191.svg);
+    width: 32px;
+    height: 32px;
+    display: block;
+
+}
+.Cart_ic:hover{
+    background-color: #fff;
+}

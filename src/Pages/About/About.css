@@ -7,6 +7,7 @@
   .story_menu{
     align-items: center;
   }
+ 
   
   
   .vertical{
@@ -26,6 +27,7 @@
   .card_info{
     
     font-size: 14px;
+    margin: 15px;
     
   }
   .card{

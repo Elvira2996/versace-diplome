@@ -41,20 +41,21 @@
 
 
 
-.ins_icons{
+.ins_icons {
   background: url(..//..//images/icons/instagram.svg);
   width: 24px;
   height: 24px;
   display: block;
 }
-.ins_icons{
+
+.ins_icons {
   width: 30px;
   height: 28px;
   display: block;
 }
 
- 
-.ld_icons{
+
+.ld_icons {
   background: url('..//..//images/icons/linkedin.svg');
   width: 30px;
   height: 30px;
@@ -62,7 +63,7 @@
 }
 
 
-.fc_icons{
+.fc_icons {
   background: url(../../images/icons/facebook.svg);
   width: 24px;
   height: 24px;
@@ -70,20 +71,31 @@
 }
 
 
-.tw_icons{
-  background: url(../../images/icons/twitter-2.svg) ;
- 
+.tw_icons {
+  background: url(../../images/icons/twitter.svg);
+  width: 24px;
+  height: 24px;
+  display: block;
 }
-.pintr_icons{
+
+.pintr_icons {
   background: url(../../images/icons/pinterest.svg);
   width: 26px;
   height: 28px;
   display: block;
-  
+
 }
-.youtube_icons{
+
+.youtube_icons {
   background: url(../../images/icons/youtube.svg);
+  width: 24px;
+  height: 24px;
+  display: block;
+}
+
+.footer_icons {
+  align-items: flex-end;
 }
 .footer_icons{
-  align-items: flex-end;
+  width: 250px;
 }

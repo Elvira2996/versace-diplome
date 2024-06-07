@@ -103,18 +103,7 @@ section{
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
-.accordion-header{
-	background-color: #fff;
-}
-.accor_ic1{
-    background: url(../src/images/icons/accor_ic1.svg);
-	width: 50px;
-	height: 50px;
-	display: block;
-}
-.accor_wrapp{
-	
-}
+
 .accordion-button{
 	background-color: #fff;
 }
@@ -122,4 +111,10 @@ section{
 	width: 800px;
     margin-left: 70px;
     margin-bottom: 70px;
+}
+.accordion-button:not(.collapsed){
+	background: none;
+}
+.accordion-button:focus{
+	box-shadow: none;
 }

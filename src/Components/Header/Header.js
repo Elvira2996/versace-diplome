@@ -5,6 +5,7 @@ import Menu from '../Menu/Menu';
 import { Link } from 'react-router-dom';
 import Auth from "../Auth/Auth";
 import CategoryList from '../CategoryList/CategoryList';
+import CartLink from '../CartLink/CartLink';
 
 
 function Header() {
@@ -55,10 +56,9 @@ function Header() {
             <Menu />
             <div className="Buttons flex">
              <Auth />
+             <CartLink />
             </div>
-            <Link to="/cart" className="Cart_ic">
-              <span></span>
-            </Link>
+            
           </div>
         </div>
         
