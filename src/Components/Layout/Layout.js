@@ -6,7 +6,6 @@ import Footer from "../Footer/Footer";
 export default function Layout(props) {
   return (
     <>
-      <Header />
       <div className="container">
         <div className="Layout flex">
          

@@ -7,8 +7,14 @@ import Auth from "../Auth/Auth";
 import CategoryList from '../CategoryList/CategoryList';
 import CartLink from '../CartLink/CartLink';
 
+const url = typeof window !== 'undefined' ? window.location.href : '';
 
-function Header() {
+if(url === ''){
+  
+}
+
+
+function Header(props) {
   const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
@@ -31,7 +37,7 @@ function Header() {
   return (
     <>
     
-      <header className={`Header ${isScrolled ? 'fixed' : ''}`}>
+      <header className={`Header ${props.dataClass} ${isScrolled ? 'fixed' : ''}`}>
         <div className="container">
           <div className="Head flex">
             <h1 className="logo"> <Link to="/">Versace</Link></h1>

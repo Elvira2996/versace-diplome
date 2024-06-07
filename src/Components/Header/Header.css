@@ -5,7 +5,7 @@
     right: 0;
     z-index: 1000;
     padding: 20px;
-    background-color: transparent; /* Initially transparent background */
+    background-color: #000; /* Initially transparent background */
     color: white; /* Initially white text */
     transition: background-color 0.3s, color 0.3s; /* Add transition for smooth color change */
 }
@@ -36,4 +36,9 @@
 
 .header_menu li:last-child {
     margin-right: 0;
+}
+
+
+.Head_main{
+    background: none;
 }

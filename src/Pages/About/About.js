@@ -52,11 +52,13 @@ import Story48 from '..//..//images/story48.avif'
 import Story49 from '..//..//images/story49.avif'
 import Story50 from '..//..//images/story50.avif'
 import FooterMail from '../../Components/FooterMail/FooterMail';
+import Header from '../../Components/Header/Header';
 
 
 function About() {
   return (
     <>
+    <Header />
       <section className='stories'>
         <div className='container'>
           <h1 className='story_title'>Stories</h1>

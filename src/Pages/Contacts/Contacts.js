@@ -3,10 +3,12 @@ import { Link } from 'react-router-dom';
 
 import CustomAccordion from '..//..//Components/CustomAccordion/CustomAccordion';
 import FooterMail from '../../Components/FooterMail/FooterMail';
+import Header from '../../Components/Header/Header';
 
 function Contacts() {
   return (
     <>
+    <Header />
       <section className='contacts'>
         <div className='container'>
           <div className='contact_info flex'>

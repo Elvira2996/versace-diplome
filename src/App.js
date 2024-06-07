@@ -30,6 +30,7 @@ function App() {
   const [cart, setCart] = useState(() => {
     return JSON.parse(localStorage.getItem("cart")) || {};
   });
+  
 
   const [user, setUser] = useState(null);
 
