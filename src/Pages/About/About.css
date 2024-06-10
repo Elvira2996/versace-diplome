@@ -41,5 +41,35 @@
   .card_titl{
     font-size: 18px;
   }
+  @media screen and (max-width: 768px) {
+    .block_left {
+      flex-direction: column;
+    }
   
+    .vertical {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .story_menu {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .vertical {
+      display: none;
+    }
+  }
+  @media screen and (min-width: 481px) and (max-width: 768px) {
+    .card {
+      width: 50%; /* Две карточки в ряд на экранах шириной до 768px */
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .card {
+      width: 100%; /* Одна карточка на всю ширину на экранах шириной до 480px */
+    }
+  }
  
