@@ -1,0 +1,71 @@
+/* Для экранов с шириной до 768px */
+@media screen and (max-width: 768px) {
+    .gallery-content {
+      flex-direction: column;
+    }
+  
+    .gallery h2 {
+      margin-left: 0;
+      text-align: center;
+    }
+  
+    .gallery-images {
+      justify-content: center;
+    }
+  
+    .gallery-image {
+      margin-left: 0;
+      text-align: center;
+    }
+  
+    .presentation {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .presentation_image {
+      width: 100%;
+    }
+  
+    .image_content {
+      position: static;
+      text-align: center;
+      transform: none;
+      opacity: 1;
+      margin-top: 20px;
+    }
+  
+    .main_bag {
+      padding: 20px;
+    }
+  
+    .recent {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  /* Для экранов с шириной до 480px */
+  @media screen and (max-width: 480px) {
+    .gallery-image img {
+      width: 120px;
+      height: 120px;
+    }
+  
+    .gallery h2 {
+      font-size: 30px;
+    }
+  
+    .presentation_title {
+      font-size: 24px;
+    }
+  
+    .presentation_btn {
+      padding: 5px 30px;
+      font-size: 8px;
+    }
+  
+    .recent_title {
+      font-size: 16px;
+    }
+  }

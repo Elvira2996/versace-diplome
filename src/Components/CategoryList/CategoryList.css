@@ -13,3 +13,9 @@
 .dropdownBtn{
     padding-bottom: 5px;
 }
+  .CardDelete{
+    background: url(..//..//images/icons/cartDelete.svg);
+    width: 24px;
+    height: 24px;
+    display: block;
+  }

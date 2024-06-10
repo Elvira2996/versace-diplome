@@ -4,6 +4,7 @@ import { useContext } from "react";
 import { AppContext } from "../../App";
 import ProductList from "../../Components/ProductList/ProductList";
 import './Category.css'
+import Header from "../../Components/Header/Header"; 
 
 
 export default function Category() {
@@ -20,7 +21,9 @@ export default function Category() {
   }
 
   return (
+   
     <div className="Category">
+      <Header />
       <h2>{category.name}</h2>
       <ProductList category={category} />
     </div>

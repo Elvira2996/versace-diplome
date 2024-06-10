@@ -2,6 +2,7 @@ import "./CartList.css";
 import { AppContext } from "../../App";
 import { Link } from "react-router-dom";
 import { useContext } from "react";
+import Header from "../Header/Header";
 
 export default function CartList() {
   const { products, cart, setCart } = useContext(AppContext);
@@ -31,19 +32,24 @@ export default function CartList() {
         <Link to={"/products/" + product.slug}>{product.name}</Link>
 
         <div className="inputs">
-        <input
-          type="number"
-          value={cart[product.name]}
-          min={1}
-          onChange={(event) => onQuantityChange(product, +event.target.value)} />
+          <button className="minus" onClick={() => onQuantityChange(product, cart[product.id] - 1)}>-</button>
+          <input
+            type="number"
+            value={cart[product.id]}
+            min={1}
+            className="cardCount"
+            onChange={(event) => onQuantityChange(product, +event.target.value)} />
+          <button className="plus" onClick={() => onQuantityChange(product, cart[product.id] + 1)}>+</button>
+        </div>
         <span>${(cart[product.id] * product.price).toFixed(2)}</span>
-        <i className="fa-solid fa-xmark" onClick={() => onItemRemove(product)} />
-          </div>
+        <i className="CardDelete" onClick={() => onItemRemove(product)} />
       </div>
     ));
 
   return (
+    
     <div className="CartList">
+      <Header />
       {output}
     </div>
   )

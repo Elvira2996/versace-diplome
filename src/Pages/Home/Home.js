@@ -1,4 +1,5 @@
 import './Home.css';
+import './Home-resposive.css';
 import video from '../../images/video.mp4'
 import { Link } from 'react-router-dom'
 import Gallery1 from "../../images/gallery1.jpg"
