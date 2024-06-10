@@ -1,34 +1,21 @@
-import React, { useState } from 'react';
 import './Menu.css';
-import { Link } from 'react-router-dom';
-import './Menu-resposive.css';
+import {Link} from 'react-router-dom'
 
 function Menu() {
-  const [menuOpen, setMenuOpen] = useState(false);
-
-  const toggleMenu = () => {
-    setMenuOpen(!menuOpen);
-  };
-
   return (
-    <nav className={`Menu ${menuOpen ? 'open' : ''}`}>
-      <div className="burger-menu" onClick={toggleMenu}>
-        <div className="bar"></div>
-        <div className="bar"></div>
-        <div className="bar"></div>
-      </div>
+    <nav className='Menu'>
       <ul className='flex'>
         <li>
-          <Link to="/" onClick={toggleMenu}>Home</Link>
+          <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/about" onClick={toggleMenu}>About</Link>
+          <Link to="/about">About</Link>
         </li>
         <li>
-          <Link to="/delivery" onClick={toggleMenu}>Delivery</Link>
+          <Link to="/delivery">Delivery</Link>
         </li>
         <li>
-          <Link to="/contacts" onClick={toggleMenu}>Contacts</Link>
+          <Link to="/contacts">Contacts</Link>
         </li>
       </ul>
     </nav>

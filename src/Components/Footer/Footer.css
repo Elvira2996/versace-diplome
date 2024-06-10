@@ -99,3 +99,19 @@
 .footer_icons{
   width: 250px;
 }
+@media only screen and (max-width: 480px) {
+  .footer_wrapp {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-column {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .footer-icons {
+    width: auto; /* Remove fixed width for icons */
+    justify-content: center;
+  }
+}

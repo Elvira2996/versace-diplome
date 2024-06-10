@@ -22,3 +22,16 @@ footer .Menu li{
   padding: 3px 0 1px;
   text-transform: none;
 }
+.burger-menu {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  margin: 4px 0;
+}
