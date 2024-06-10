@@ -1,0 +1,31 @@
+.Total {
+    background-color: #f8f9fa; /* Цвет фона */
+    border: 1px solid #dee2e6; /* Бордер */
+    border-radius: 10px; /* Округление углов */
+    padding: 20px; /* Отступы внутри блока */
+    margin-top: 20px; /* Отступ сверху */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Тень */
+  }
+  
+  .Total h2 {
+    font-size: 28px; /* Размер шрифта заголовка */
+    margin-bottom: 15px; /* Отступ снизу */
+    color: #007bff; /* Цвет текста */
+    text-align: center; /* Выравнивание по центру */
+    text-transform: uppercase; /* Преобразование текста в заглавные буквы */
+  }
+  
+  .Total p {
+    font-size: 20px; /* Размер шрифта параграфа */
+    margin: 10px 0; /* Внешние отступы сверху и снизу */
+  }
+  
+  .Total p:first-child {
+    font-weight: bold; /* Жирный шрифт для первого параграфа */
+  }
+  
+  .Total p:last-child {
+    font-size: 24px; /* Увеличиваем размер шрифта последнего параграфа */
+    color: #28a745; /* Цвет текста */
+    text-align: center; /* Выравнивание по центру */
+  }

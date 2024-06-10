@@ -1,3 +1,6 @@
 button.order{
     border: 1px solid;
 }
+.Total {
+    flex-shrink: 0;
+  }

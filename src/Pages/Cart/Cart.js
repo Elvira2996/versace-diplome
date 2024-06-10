@@ -28,8 +28,14 @@ export function Cart() {
   return (
     <div className="Cart" >
       <h1></h1>
+      <div className="main_cart flex">
+        <div>
       <CartList />
+      </div>
+     
       <Total />
+    
+      </div>
       <button className="order" onClick={() => setModalActive(true)}>Add to shopping bag</button>
       
       <OrderForm active={modalActive} setActive={setModalActive} />

@@ -30,7 +30,8 @@ export default function CartList() {
           <img src={product.image} alt={product.name} />
         </Link>
         <Link to={"/products/" + product.slug}>{product.name}</Link>
-
+        <span>${(cart[product.id] * product.price).toFixed(2)}</span>
+<div className="calc flex">
         <div className="inputs">
           <button className="minus" onClick={() => onQuantityChange(product, cart[product.id] - 1)}>-</button>
           <input
@@ -40,16 +41,19 @@ export default function CartList() {
             className="cardCount"
             onChange={(event) => onQuantityChange(product, +event.target.value)} />
           <button className="plus" onClick={() => onQuantityChange(product, cart[product.id] + 1)}>+</button>
+          
         </div>
-        <span>${(cart[product.id] * product.price).toFixed(2)}</span>
         <i className="CardDelete" onClick={() => onItemRemove(product)} />
+        </div>
+       
+     
       </div>
     ));
 
   return (
     
     <div className="CartList">
-      <Header />
+      
       {output}
     </div>
   )
