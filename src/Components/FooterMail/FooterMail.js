@@ -10,10 +10,10 @@ function FooterMail() {
               </p>
               <form className='enter_mail'>
              
-                <button className='enter_btn'>
+                
                 <input className='form_input' type="email" placeholder='Enter your email address' />
                   <div className='enter_ic'></div>
-                </button>
+                
               </form>
             </div>
           </section>

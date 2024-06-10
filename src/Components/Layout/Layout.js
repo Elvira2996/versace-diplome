@@ -7,6 +7,7 @@ export default function Layout(props) {
   return (
     <>
       <div className="container">
+      
         <div className="Layout flex">
          
           <main>{props.children}</main>

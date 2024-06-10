@@ -1,13 +1,21 @@
 .AddToCart button {
   padding: 2px 10px;
-  margin-right: 5px;
-  background-color: #e85a71;
-  border: none;
-  color: white;
-  border-radius: 5px;
-  font-family: inherit;
-  transition: all 100ms linear;
+    margin-right: 5px;
+    background-size: 27px;
+    height: 27px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://i.pinimg.com/736x/bd/14/9c/bd149c5c05185de274f040d809f93354.jpg");
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-family: inherit;
+    transition: all 100ms linear;
 }
-.AddToCart button:hover {
-  background-color: rgb(255, 130, 151);
+
+.visible-input {
+  border: 1px solid #ccc;
+  padding: 5px;
+  width: 50px; /* Регулируйте размеры по вашему усмотрению */
 }
+

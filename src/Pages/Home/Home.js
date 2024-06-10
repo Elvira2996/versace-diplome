@@ -14,7 +14,7 @@ import recentImage1 from '..//..//images/recent1.jpg'
 import recentImage2 from '..//..//images/recent2.jpg'
 import recentImage3 from '..//..//images/recent3.jpg'
 import recentImage4 from '..//..//images/recent4.jpg'
-import ShopSlide from '../../Components/ShopSlide/ShopSlide';
+
 import FooterMail from '../../Components/FooterMail/FooterMail';
 import Header from '../../Components/Header/Header';
 

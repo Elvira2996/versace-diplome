@@ -1,0 +1,21 @@
+.Product{
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 200px;
+    box-shadow: 1px 2px 7px #a17a7a;
+    border-radius: 11px 2px;
+}
+.product_img {
+    display:inline-block;
+}
+.product_img img{
+    display: block;
+    width: 130px;
+    height: 170px;
+    padding: 2px;
+}
+.product_img2{
+    display: inline-block;
+    width: fit-content;
+    height: 170px;
+}
