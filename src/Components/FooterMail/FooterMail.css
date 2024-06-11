@@ -1,10 +1,15 @@
 .enter {
   background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 .enter_title,
-.enter_txt,
-.enter_btn {
+.enter_txt {
   text-align: center;
   margin-bottom: 20px;
 }
@@ -17,23 +22,30 @@
   font-size: 20px;
 }
 
-.form_input::placeholder {
-  color: #a9a9a9;
-}
-
-
-
-.form_input {
-  display: block;
+.email-input {
+  display: flex;
+  justify-content: center;
+  width: 200px;
   margin: 0 auto;
-  text-align: center;
-  padding: 10px;
-  width: 80%;
-  border: 1px solid #d3d3d3;
 }
 
-/* Выбираем input с атрибутом type="email" */
-form .form_input[type="email"] {
-  width: 300px; 
-  background-color: #fff;/* Задаем ширину для input type="email" */
+.email-input input[type="email"] {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #d3d3d3;
+  border-radius: 5px 0 0 5px; /* Закругляем левый край */
+}
+
+.email-input button[type="submit"] {
+  padding: 10px;
+  
+  border: none;
+  color: #fff;
+  border-radius: 0 5px 5px 0; /* Закругляем правый край */
+  cursor: pointer;
+  margin-top: 6px;
+}
+
+.email-input button[type="submit"] span {
+  font-size: 20px; /* Размер иконки */
 }
