@@ -19,4 +19,67 @@
     height: 24px;
     display: block;
   }
-  
+  @media screen and (max-width: 1300px) {
+	.container{
+		max-width: 960px;
+	}
+}
+@media screen and (max-width: 990px) {
+	.container{
+		max-width: 750px;
+	}
+}
+@media screen and (max-width: 780px) {
+	.container{
+		max-width: 510px;
+	
+	}
+	.CategoryList{
+		display: none;
+	}
+	
+	
+	.burger{
+		display: block;
+		width: 33px;
+		height: 20px;
+		background-color: #fff;
+		position: absolute;
+		top: 0;
+		right: o;
+	}
+	.burger i,
+	.burger i::before,
+	.burger i::after{
+		width: 100px;
+		height: 4px;
+		background: #fff;
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+	
+	}
+	.burger i::before{
+		content: "";
+		width: 100px;
+		height: 4px;
+		background: #fff;
+		display: block;
+		position: absolute;
+		top: 9px;
+		
+	}
+	.burger i::after{
+		content: "";
+		width: 100px;
+		height: 4px;
+		background: #fff;
+		display: block;
+		position: absolute;
+		top: 17px;
+		left: 0;
+		right: 0;
+	}
+}
