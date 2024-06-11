@@ -3,6 +3,7 @@ import CartList from "../../Components/CartList/CartList";
 import OrderForm from "../../Components/OrderForm/OrderForm";
 import { AppContext } from "../../App";
 import Total from "../../Components/Total/Total";
+import Header from "../../Components/Header/Header";
 
 export function Cart() {
   const [modalActive, setModalActive] = useState(false);
@@ -27,15 +28,15 @@ export function Cart() {
 
   return (
     <div className="Cart" >
+      <Header />
       <h1></h1>
-      <div className="main_cart flex">
-        <div>
+      
+        
       <CartList />
-      </div>
-     
-      <Total />
     
-      </div>
+      <Total />
+     
+      
       <button className="order" onClick={() => setModalActive(true)}>Add to shopping bag</button>
       
       <OrderForm active={modalActive} setActive={setModalActive} />

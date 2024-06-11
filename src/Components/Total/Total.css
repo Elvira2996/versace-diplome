@@ -1,31 +1,61 @@
 .Total {
-    background-color: #f8f9fa; /* Цвет фона */
-    border: 1px solid #dee2e6; /* Бордер */
-    border-radius: 10px; /* Округление углов */
-    padding: 20px; /* Отступы внутри блока */
-    margin-top: 20px; /* Отступ сверху */
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Тень */
+  background-color: #f8f9fa; 
+  border: 1px solid #dee2e6; 
+  border-radius: 10px; 
+  padding: 20px; 
+  margin-top: 20px; 
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  animation: slideIn 0.5s ease-in-out; 
+}
+
+.Total h2 {
+  font-size: 28px; 
+  margin-bottom: 15px; 
+  color: #007bff; 
+  text-align: center; 
+  text-transform: uppercase; 
+}
+
+.Total p {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.Total p:first-child {
+  font-weight: bold;
+}
+
+.Total p:last-child {
+  font-size: 24px; 
+  color: #28a745; 
+  text-align: center; 
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@media (max-width: 768px) {
+  .Total {
+    padding: 15px; 
+    margin-top: 15px; 
   }
   
   .Total h2 {
-    font-size: 28px; /* Размер шрифта заголовка */
-    margin-bottom: 15px; /* Отступ снизу */
-    color: #007bff; /* Цвет текста */
-    text-align: center; /* Выравнивание по центру */
-    text-transform: uppercase; /* Преобразование текста в заглавные буквы */
+    font-size: 24px; 
   }
   
   .Total p {
-    font-size: 20px; /* Размер шрифта параграфа */
-    margin: 10px 0; /* Внешние отступы сверху и снизу */
-  }
-  
-  .Total p:first-child {
-    font-weight: bold; /* Жирный шрифт для первого параграфа */
+    font-size: 18px; 
   }
   
   .Total p:last-child {
-    font-size: 24px; /* Увеличиваем размер шрифта последнего параграфа */
-    color: #28a745; /* Цвет текста */
-    text-align: center; /* Выравнивание по центру */
+    font-size: 20px; 
   }
+}

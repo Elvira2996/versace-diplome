@@ -44,15 +44,7 @@ function Header(props) {
             <nav>
               <CategoryList />
               
-              {/* <ul className='header_menu flex'>
-                <li><Link to="#">La Vacanza</Link></li>
-                <li><Link to="#">New In</Link></li>
-                <li><Link to="#">Bags</Link></li>
-                <li><Link to="#">Woman</Link></li>
-                <li><Link to="#">Men</Link></li>
-                <li><Link to="#">Children</Link></li>
-                <li><Link to="#">Stories</Link></li>
-              </ul> */}
+            
             </nav>
             <div className="icons">
               <span className='ic_menu'></span>

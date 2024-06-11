@@ -80,3 +80,49 @@
   margin: 15px;
   width: 150px;
 }
+.CardDelete {
+  font-size: 24px; /* Размер иконки */
+}
+
+.cardCount {
+  font-size: 18px; /* Размер текста */
+}
+
+/* Перенос span под название продукта */
+.cartItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cartItem img {
+  max-width: 100px; /* Ограничиваем ширину изображения */
+}
+
+.cartItem .itemInfo {
+  flex: 1; /* Занимаем оставшееся пространство */
+  padding-left: 10px; /* Отступ слева */
+}
+
+/* Адаптивные стили для узких экранов */
+@media (max-width: 768px) {
+  .CardDelete {
+    font-size: 20px; /* Уменьшаем размер иконки */
+  }
+  
+  .cardCount {
+    font-size: 16px; /* Уменьшаем размер текста */
+  }
+}
+
+/* Адаптивные стили для экранов размером до 480 пикселей */
+@media (max-width: 480px) {
+  .CardDelete {
+    font-size: 18px; /* Уменьшаем размер иконки еще больше */
+  }
+  
+  .cardCount {
+    font-size: 14px; /* Уменьшаем размер текста еще больше */
+    
+  }
+}
