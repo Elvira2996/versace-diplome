@@ -25,14 +25,16 @@ function Contacts() {
           </nav>
           <hr />
           <div className='contact_main'>
-            <h2 className='contact_us'>CONTACT US</h2>
+            <h3 className='contact_us'>CONTACT US</h3>
             <p className='contact_txt'>
-              We want to make it possible for you to have the perfect shopping experience! Please have a look at our Help & FAQ section or contact our Client Service team should you need further information.</p>
+              We want to make it possible for you to have the perfect shopping experience! Please have a look at our Help & FAQ section or contact our Client <br/> Service team should you need further information.</p>
             <h3 className='contact_titl'>Book An Appointment</h3>
-            <p className='contact_txt'>To book a virtual or in-store appointment simply click here to fill out the short request form and a member of our team will reach out to you to confirm your booking as soon as possible.</p>
+            <p className='contact_txt'>To book a virtual or in-store appointment simply click here to fill out the short request form and a member of our team will reach out to you to <br/> confirm your booking as soon as possible.</p>
             <h3 className='contact_titl'>Call or Email Us</h3>
             <p className='contact_txt'>Our Online Store Client Service will answer any question you have about our products, orders and deliveries, returns or payments.</p>
-            <p className='contact_txt'>You can contact us +1 5513070015 or via form.</p>
+            <p className='contact_txt'>You can contact us <a  className='contact_tel' href="tel:+1 5513070015">+1 5513070015</a> or via form.
+            
+            </p>
             <p className='contact_txt'>Our Client Service team is happy to help you and is available from Monday to Friday from 9 AM to 8 PM (ET), excluding holidays*</p>
             
             <hr className='contact_line' />

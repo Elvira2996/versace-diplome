@@ -30,13 +30,19 @@
 .contact_list {
     text-transform: uppercase;
     margin-bottom: 20px;
+   
+}
+h3.contact_titl{
+    text-align-last: left;
 }
 
 .contact_us,
 .contact_txt {
     margin-top: 20px;
-    font-size: 20px; /* Уменьшаем размер для маленьких экранов */
+    font-size: 15px;
+    text-align: left;
 }
+
 
 .contact_main {
     text-align: center;
@@ -76,8 +82,14 @@ iframe {
 
 .list_name {
     margin-bottom: 20px;
-}
 
+}
+.contact_tel{
+    text-decoration: underline;
+}
+.contact_us{
+    font-size: 25px;
+}
 /* Медиа-запросы для адаптивности */
 @media screen and (max-width: 768px) {
     .contact_info {
