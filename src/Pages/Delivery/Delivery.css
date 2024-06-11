@@ -30,6 +30,12 @@
     font-weight: 600;
     margin-bottom: 30px;
 }
+.delivery_accor{
+  width: 80%;
+}
+.delivery_list{
+  width: 20%;
+}
 @media screen and (max-width: 480px) {
     .delivery_info {
       width: auto;

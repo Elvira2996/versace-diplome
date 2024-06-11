@@ -4,6 +4,7 @@ import { AppContext } from "../../App";
 import NotFound from "../NotFound/NotFound";
 import { AddToCart } from "../../Components/AddToCart/AddToCart";
 import "./Product.css"
+import Header from "../../Components/Header/Header";
 
 export default function Product() {
   const { params } = useMatch("/products/:slug");
@@ -13,10 +14,13 @@ export default function Product() {
 
   if (!product) {
     return <NotFound />
+    
   }
 
   return (
+   
     <div className="Product">
+       <Header />
       <div className="product_img">
         <img  src={product.image} alt={product.name} />
       </div>
