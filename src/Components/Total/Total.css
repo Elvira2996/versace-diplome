@@ -11,7 +11,6 @@
 .Total h2 {
   font-size: 28px; 
   margin-bottom: 15px; 
-  color: #007bff; 
   text-align: center; 
   text-transform: uppercase; 
 }
@@ -27,7 +26,6 @@
 
 .Total p:last-child {
   font-size: 24px; 
-  color: #28a745; 
   text-align: center; 
 }
 

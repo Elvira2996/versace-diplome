@@ -271,3 +271,53 @@
   color: black;
   cursor: pointer;
 }
+/* adaptive */
+@media screen and (max-width: 1300px) {
+  /* Примеры адаптивных стилей для max-width: 1300px */
+  .container {
+      max-width: 960px; /* Размер контейнера для экранов до 1300px */
+  }
+  .main_bag img {
+      max-width: 90%; /* Пример изменения размера изображения */
+  }
+}
+
+@media screen and (max-width: 990px) {
+  /* Примеры адаптивных стилей для max-width: 990px */
+  .container {
+      max-width: 750px; /* Размер контейнера для экранов до 990px */
+  }
+  .presentation_image {
+      width: 70%; /* Пример изменения размера блока с изображением презентации */
+  }
+}
+
+@media screen and (max-width: 780px) {
+  /* Примеры адаптивных стилей для max-width: 780px */
+  .container {
+      max-width: 510px; /* Размер контейнера для экранов до 780px */
+  }
+  .gallery h2 {
+      font-size: 30px; /* Пример уменьшения размера шрифта заголовка галереи */
+  }
+}
+
+@media screen and (max-width: 540px) {
+  /* Примеры адаптивных стилей для max-width: 540px */
+  .container {
+      max-width: 420px; /* Размер контейнера для экранов до 540px */
+  }
+  .gallery-images {
+      justify-content: center; /* Пример центрирования изображений в галерее */
+  }
+}
+
+@media screen and (max-width: 450px) {
+  /* Примеры адаптивных стилей для max-width: 450px */
+  .container {
+      max-width: 100%; /* Контейнер займет всю доступную ширину на экранах до 450px */
+  }
+  .main_btn {
+      right: 20px; 
+  }
+}
